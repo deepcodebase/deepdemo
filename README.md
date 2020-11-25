@@ -45,3 +45,6 @@ yarn install
 python core.py launch_client --port 8000
 ```
 
+## Visit the page
+
+Assume the IP of your server is `10.61.2.216`, open the link in your browser: http://10.61.2.216:8000

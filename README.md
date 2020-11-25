@@ -4,7 +4,6 @@
 pip install flask
 pip install flask-cors
 pip install flask-compress
-
 ```
 
 ## Launch Server
@@ -19,6 +18,25 @@ Assume the IP of your server is `10.61.2.216`, open the link in your browser:
 
 ```
 http://10.61.2.216:9000/api/score?t1=hello%20world&t2=ni%20hao
+```
+
+## Install nodejs and yarn
+
+```
+conda install nodejs
+npm install -g yarn
+yarn global add yrm
+# or `~/.zshrc` if you use `zsh`
+echo 'export PATH=~/.yarn/bin:$PATH' >> ~/.bashrc
+. ~/.bashrc
+yrm use taobao
+```
+
+## Install packages
+
+```
+cd demo/client
+yarn install
 ```
 
 ## Launch Client

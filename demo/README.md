@@ -82,7 +82,7 @@ yarn serve
 
 You need some basic knowledge about html, css and javascript. Learn them in https://www.w3school.com.cn/
 
-### Interactive with server (APIs)
+### Interact with server (APIs)
 
 ```
 yarn add axios

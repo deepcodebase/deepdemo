@@ -20,3 +20,7 @@ Assume the ip of your server is `10.61.2.216`
 ```
 http://10.61.2.216:9000/api/score?t1=hello%20world&t2=ni%20hao
 ```
+
+## Others
+
+Please refer to https://github.com/testdrivenio/flask-vue-crud for more information.

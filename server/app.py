@@ -1,6 +1,6 @@
 """
 API: /api/score?t1=<text1>&t2=<text2>
-Example: http://10.60.2.216:8000/api/score?t1=hello%20world&t2=ni%20hao
+Example: http://10.61.2.216:9000/api/score?t1=hello%20world&t2=ni%20hao
 """
 from flask import Flask, request, send_file
 from flask_cors import CORS
@@ -46,4 +46,4 @@ def get_score():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
+    app.run(host="0.0.0.0", port=9000)

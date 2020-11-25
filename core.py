@@ -14,7 +14,7 @@ if __name__ == "__main__":
     subparsers = parser.add_subparsers(dest="command")
 
     parser_s = subparsers.add_parser("launch_server", description="Launch api server.")
-    parser_s.add_argument("--port", default=6000, type=int, help="Filter configs.")
+    parser_s.add_argument("--port", default=9000, type=int, help="Filter configs.")
 
     args = parser.parse_args()
 

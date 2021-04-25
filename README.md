@@ -1,50 +1,42 @@
-# Install dependencies
+# DeepDemo
 
-```
-pip install flask
-pip install flask-cors
-pip install flask-compress
-```
+A simple demo template powered by Vue and Flask.
 
-## Launch Server
+![](image/screenshot.jpg)
 
-```
-python core.py launch_server --port 9000
-```
+## Basic functions
 
-## Test APIs
+- Vue
+- Flask
+  - CORS
+  - sample RESTful api
+- TailwindCSS
+- Fontawesome
+- Lodash
 
-Assume the IP of your server is `10.61.2.216`, open the link in your browser:
+## Quick start
 
-```
-http://10.61.2.216:9000/api/score?t1=hello%20world&t2=ni%20hao
-```
+1. Install dependencies 
 
-## Install nodejs and yarn
+``` bash
+# Install python packages
+pip install -r requirements.txt
 
-```
-conda install nodejs
-npm install -g yarn
-yarn global add yrm
-# or `~/.zshrc` if you use `zsh`
-echo 'export PATH=~/.yarn/bin:$PATH' >> ~/.bashrc
-. ~/.bashrc
-yrm use taobao
-```
-
-## Install packages
-
-```
-cd demo/client
+# Install node packages
+cd client
 yarn install
 ```
 
-## Launch Client
+2. Launch api server first
 
+``` bash
+python core.py serve_api --port 9000
 ```
-python core.py launch_client --port 8000
+
+3. Launch ui server in another command line
+
+``` bash
+python core.py serve_ui
 ```
 
-## Visit the page
-
-Assume the IP of your server is `10.61.2.216`, open the link in your browser: http://10.61.2.216:8000
+4. Visit the url of the ui server

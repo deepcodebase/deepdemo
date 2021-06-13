@@ -1,6 +1,6 @@
 # DeepDemo
 
-A simple demo template powered by Vue and Flask.
+A simple demo template powered by Vue and Flask. This branch is a dataset explorer to view the COIN dataset.
 
 ![](image/screenshot.jpg)
 

@@ -2,7 +2,7 @@ import argparse
 import os
 import subprocess
 
-from app import app
+from server.app import app
 
 
 def launch_api_server(args):
